@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include "IHMHugeNumber/ScanHugeNumber.h"
 #include "IHMHugeNumber/ShowHugeNumber.h"
+#include "UseHugeNumber/Operator/HugeFloatOperator.h"
+#include "UseHugeNumber/Operator/HugeIntOperator.h"
+#include "UseHugeNumber/Operator/HugeUnsignedIntOperator.h"
 
 int main (void) {
     HugeFloat* op1 = createHugeFloatFromString ("1002315684321510", "-10");
